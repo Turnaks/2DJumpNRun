@@ -11,7 +11,8 @@ config_version=5
 [application]
 
 config/name="2DJumpNRun"
-config/features=PackedStringArray("4.4", "Forward Plus")
+run/main_scene="uid://ca2s27bg1mcwg"
+config/features=PackedStringArray("4.4", "C#", "Forward Plus")
 config/icon="res://icon.svg"
 
 [dotnet]
@@ -25,3 +26,7 @@ folder_colors={
 "res://Scenes/": "teal",
 "res://Scripts/": "red"
 }
+
+[rendering]
+
+textures/canvas_textures/default_texture_filter=0
