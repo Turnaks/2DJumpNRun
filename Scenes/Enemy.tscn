@@ -1,0 +1,43 @@
+[gd_scene load_steps=6 format=3 uid="uid://24007c0m2y55"]
+
+[ext_resource type="Texture2D" uid="uid://brgtgcyg6lli" path="res://Assets/KenneyNL/Sprites/pixel-platformer/Tiles/Characters/tile_0020.png" id="1_xeo28"]
+[ext_resource type="Texture2D" uid="uid://bcereym2ihir4" path="res://Assets/KenneyNL/Sprites/pixel-platformer/Tiles/Characters/tile_0018.png" id="2_kpr8r"]
+[ext_resource type="Texture2D" uid="uid://ix8kyqmlfse1" path="res://Assets/KenneyNL/Sprites/pixel-platformer/Tiles/Characters/tile_0019.png" id="3_1exfc"]
+
+[sub_resource type="CapsuleShape2D" id="CapsuleShape2D_mo1ky"]
+radius = 6.99999
+height = 18.0
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_rvmyp"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("1_xeo28")
+}],
+"loop": true,
+"name": &"Idle",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("2_kpr8r")
+}, {
+"duration": 1.0,
+"texture": ExtResource("3_1exfc")
+}],
+"loop": true,
+"name": &"Walk",
+"speed": 5.0
+}]
+
+[node name="Node2D" type="CharacterBody2D"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(0, -7)
+rotation = -1.57247
+shape = SubResource("CapsuleShape2D_mo1ky")
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+position = Vector2(0, -12)
+sprite_frames = SubResource("SpriteFrames_rvmyp")
+animation = &"Walk"

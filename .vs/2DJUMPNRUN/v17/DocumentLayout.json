@@ -1,13 +1,13 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\eikes\\Documents\\Godot\\2DJumpNRun\\",
+  "WorkspaceRootPath": "C:\\Users\\Anwender\\Documents\\Godot\\2DJumpNRun\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{035AF83F-6877-4700-9B1D-AB3505136055}|2DJumpNRun.csproj|c:\\users\\eikes\\documents\\godot\\2djumpnrun\\scripts\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{035AF83F-6877-4700-9B1D-AB3505136055}|2DJumpNRun.csproj|c:\\users\\anwender\\documents\\godot\\2djumpnrun\\scripts\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{035AF83F-6877-4700-9B1D-AB3505136055}|2DJumpNRun.csproj|solutionrelative:scripts\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{035AF83F-6877-4700-9B1D-AB3505136055}|2DJumpNRun.csproj|c:\\users\\eikes\\documents\\godot\\2djumpnrun\\scripts\\maincamera2d.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{035AF83F-6877-4700-9B1D-AB3505136055}|2DJumpNRun.csproj|c:\\users\\anwender\\documents\\godot\\2djumpnrun\\scripts\\maincamera2d.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{035AF83F-6877-4700-9B1D-AB3505136055}|2DJumpNRun.csproj|solutionrelative:scripts\\maincamera2d.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -24,24 +24,23 @@
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "MainCamera2D.cs",
-              "DocumentMoniker": "C:\\Users\\eikes\\Documents\\Godot\\2DJumpNRun\\Scripts\\MainCamera2D.cs",
+              "DocumentMoniker": "C:\\Users\\Anwender\\Documents\\Godot\\2DJumpNRun\\Scripts\\MainCamera2D.cs",
               "RelativeDocumentMoniker": "Scripts\\MainCamera2D.cs",
-              "ToolTip": "C:\\Users\\eikes\\Documents\\Godot\\2DJumpNRun\\Scripts\\MainCamera2D.cs",
+              "ToolTip": "C:\\Users\\Anwender\\Documents\\Godot\\2DJumpNRun\\Scripts\\MainCamera2D.cs",
               "RelativeToolTip": "Scripts\\MainCamera2D.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-28T10:15:18.023Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-28T10:15:18.023Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Player.cs",
-              "DocumentMoniker": "C:\\Users\\eikes\\Documents\\Godot\\2DJumpNRun\\Scripts\\Player.cs",
+              "DocumentMoniker": "C:\\Users\\Anwender\\Documents\\Godot\\2DJumpNRun\\Scripts\\Player.cs",
               "RelativeDocumentMoniker": "Scripts\\Player.cs",
-              "ToolTip": "C:\\Users\\eikes\\Documents\\Godot\\2DJumpNRun\\Scripts\\Player.cs",
+              "ToolTip": "C:\\Users\\Anwender\\Documents\\Godot\\2DJumpNRun\\Scripts\\Player.cs",
               "RelativeToolTip": "Scripts\\Player.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-23T12:41:19.598Z",
               "EditorCaption": ""
