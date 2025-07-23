@@ -4,6 +4,10 @@ using System;
 public partial class Player : CharacterBody2D
 {
 	[Export]
+	public int Health = 6;
+	[Export]
+	public int MaxHealth = 6;
+	[Export]
 	public float MaxSpeed = 100.0f;
 	[Export]
 	public float Acceleration = 10.0f;
