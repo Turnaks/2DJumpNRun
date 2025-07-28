@@ -1,17 +1,8 @@
 [gd_scene load_steps=2 format=3 uid="uid://brfiaoslght2w"]
 
-[ext_resource type="Texture2D" uid="uid://wd1j2tqctjui" path="res://Assets/KenneyNL/Sprites/pixel-platformer/Tiles/tile_0044.png" id="1_sd512"]
+[ext_resource type="Texture2D" uid="uid://wd1j2tqctjui" path="res://Assets/KenneyNL/Sprites/pixel-platformer/Tiles/tile_0044.png" id="1_1f0m8"]
 
-[node name="HUD" type="Control"]
-layout_mode = 3
-anchors_preset = 15
-anchor_right = 1.0
-anchor_bottom = 1.0
-grow_horizontal = 2
-grow_vertical = 2
-
-[node name="MarginContainer" type="MarginContainer" parent="."]
-layout_mode = 1
+[node name="Healthbar" type="MarginContainer"]
 anchors_preset = -1
 anchor_right = 0.226
 anchor_bottom = 0.154
@@ -23,13 +14,11 @@ theme_override_constants/margin_right = 10
 theme_override_constants/margin_bottom = 10
 metadata/_edit_use_anchors_ = true
 
-[node name="Panel" type="Panel" parent="MarginContainer"]
+[node name="Panel" type="Panel" parent="."]
 custom_minimum_size = Vector2(240, 80)
 layout_mode = 2
-size_flags_horizontal = 0
-size_flags_vertical = 4
 
-[node name="MarginContainer" type="MarginContainer" parent="MarginContainer/Panel"]
+[node name="MarginContainer" type="MarginContainer" parent="Panel"]
 layout_mode = 1
 anchors_preset = 4
 anchor_top = 0.5
@@ -43,12 +32,12 @@ theme_override_constants/margin_top = 5
 theme_override_constants/margin_right = 10
 theme_override_constants/margin_bottom = 5
 
-[node name="HBoxContainer" type="HBoxContainer" parent="MarginContainer/Panel/MarginContainer"]
+[node name="HBoxContainer" type="HBoxContainer" parent="Panel/MarginContainer"]
 layout_mode = 2
 size_flags_horizontal = 0
 size_flags_vertical = 4
 
-[node name="MarginContainer" type="MarginContainer" parent="MarginContainer/Panel/MarginContainer/HBoxContainer"]
+[node name="MarginContainer" type="MarginContainer" parent="Panel/MarginContainer/HBoxContainer"]
 layout_mode = 2
 size_flags_horizontal = 0
 size_flags_vertical = 4
@@ -57,14 +46,14 @@ theme_override_constants/margin_top = 5
 theme_override_constants/margin_right = 5
 theme_override_constants/margin_bottom = 5
 
-[node name="TextureRect" type="TextureRect" parent="MarginContainer/Panel/MarginContainer/HBoxContainer/MarginContainer"]
+[node name="TextureRect" type="TextureRect" parent="Panel/MarginContainer/HBoxContainer/MarginContainer"]
 custom_minimum_size = Vector2(60, 60)
 layout_mode = 2
 size_flags_horizontal = 0
 size_flags_vertical = 4
-texture = ExtResource("1_sd512")
+texture = ExtResource("1_1f0m8")
 
-[node name="MarginContainer2" type="MarginContainer" parent="MarginContainer/Panel/MarginContainer/HBoxContainer"]
+[node name="MarginContainer2" type="MarginContainer" parent="Panel/MarginContainer/HBoxContainer"]
 layout_mode = 2
 size_flags_horizontal = 0
 size_flags_vertical = 4
@@ -73,14 +62,14 @@ theme_override_constants/margin_top = 5
 theme_override_constants/margin_right = 5
 theme_override_constants/margin_bottom = 5
 
-[node name="TextureRect" type="TextureRect" parent="MarginContainer/Panel/MarginContainer/HBoxContainer/MarginContainer2"]
+[node name="TextureRect" type="TextureRect" parent="Panel/MarginContainer/HBoxContainer/MarginContainer2"]
 custom_minimum_size = Vector2(60, 60)
 layout_mode = 2
 size_flags_horizontal = 0
 size_flags_vertical = 4
-texture = ExtResource("1_sd512")
+texture = ExtResource("1_1f0m8")
 
-[node name="MarginContainer3" type="MarginContainer" parent="MarginContainer/Panel/MarginContainer/HBoxContainer"]
+[node name="MarginContainer3" type="MarginContainer" parent="Panel/MarginContainer/HBoxContainer"]
 layout_mode = 2
 size_flags_horizontal = 0
 size_flags_vertical = 4
@@ -89,9 +78,9 @@ theme_override_constants/margin_top = 5
 theme_override_constants/margin_right = 5
 theme_override_constants/margin_bottom = 5
 
-[node name="TextureRect" type="TextureRect" parent="MarginContainer/Panel/MarginContainer/HBoxContainer/MarginContainer3"]
+[node name="TextureRect" type="TextureRect" parent="Panel/MarginContainer/HBoxContainer/MarginContainer3"]
 custom_minimum_size = Vector2(60, 60)
 layout_mode = 2
 size_flags_horizontal = 0
 size_flags_vertical = 4
-texture = ExtResource("1_sd512")
+texture = ExtResource("1_1f0m8")

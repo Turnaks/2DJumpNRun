@@ -1,0 +1,89 @@
+[gd_scene load_steps=2 format=3 uid="uid://dhkn607gbqr31"]
+
+[ext_resource type="Texture2D" uid="uid://o2jolxrvkxuq" path="res://Assets/KenneyNL/Sprites/pixel-platformer/Tiles/tile_0160.png" id="1_84esg"]
+
+[node name="Healthbar" type="MarginContainer"]
+anchors_preset = -1
+anchor_left = 0.874868
+anchor_right = 1.00017
+anchor_bottom = 0.107704
+offset_left = 0.151978
+offset_right = -0.200073
+offset_bottom = 0.207993
+size_flags_horizontal = 8
+theme_override_constants/margin_left = 10
+theme_override_constants/margin_top = 10
+theme_override_constants/margin_right = 10
+theme_override_constants/margin_bottom = 10
+metadata/_edit_use_anchors_ = true
+
+[node name="Panel" type="Panel" parent="."]
+clip_contents = true
+layout_mode = 2
+
+[node name="MarginContainer" type="MarginContainer" parent="Panel"]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_constants/margin_left = 2
+theme_override_constants/margin_top = 0
+theme_override_constants/margin_right = 2
+theme_override_constants/margin_bottom = 0
+
+[node name="HBoxContainer" type="HBoxContainer" parent="Panel/MarginContainer"]
+layout_mode = 2
+size_flags_horizontal = 8
+size_flags_vertical = 4
+theme_override_constants/separation = 0
+alignment = 2
+
+[node name="MarginContainer" type="MarginContainer" parent="Panel/MarginContainer/HBoxContainer"]
+layout_mode = 2
+size_flags_horizontal = 0
+size_flags_vertical = 4
+theme_override_constants/margin_left = -10
+theme_override_constants/margin_top = -5
+theme_override_constants/margin_right = -10
+theme_override_constants/margin_bottom = -5
+
+[node name="TextureRect" type="TextureRect" parent="Panel/MarginContainer/HBoxContainer/MarginContainer"]
+custom_minimum_size = Vector2(60, 60)
+layout_mode = 2
+size_flags_horizontal = 0
+size_flags_vertical = 4
+texture = ExtResource("1_84esg")
+
+[node name="MarginContainer2" type="MarginContainer" parent="Panel/MarginContainer/HBoxContainer"]
+layout_mode = 2
+size_flags_horizontal = 0
+size_flags_vertical = 4
+theme_override_constants/margin_left = -10
+theme_override_constants/margin_top = -5
+theme_override_constants/margin_right = -10
+theme_override_constants/margin_bottom = -5
+
+[node name="TextureRect" type="TextureRect" parent="Panel/MarginContainer/HBoxContainer/MarginContainer2"]
+custom_minimum_size = Vector2(60, 60)
+layout_mode = 2
+size_flags_horizontal = 0
+size_flags_vertical = 4
+texture = ExtResource("1_84esg")
+
+[node name="MarginContainer3" type="MarginContainer" parent="Panel/MarginContainer/HBoxContainer"]
+layout_mode = 2
+size_flags_horizontal = 0
+size_flags_vertical = 4
+theme_override_constants/margin_left = -10
+theme_override_constants/margin_top = -5
+theme_override_constants/margin_right = -10
+theme_override_constants/margin_bottom = -5
+
+[node name="TextureRect" type="TextureRect" parent="Panel/MarginContainer/HBoxContainer/MarginContainer3"]
+custom_minimum_size = Vector2(60, 60)
+layout_mode = 2
+size_flags_horizontal = 0
+size_flags_vertical = 4
+texture = ExtResource("1_84esg")

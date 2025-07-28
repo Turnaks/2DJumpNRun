@@ -1,6 +1,6 @@
 using Godot;
 using System;
 
-public partial class NewScript : CharacterBody2D
+public partial class NewScript : 
 {
 }
