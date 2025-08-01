@@ -4,8 +4,8 @@
 
 [node name="Healthbar" type="MarginContainer"]
 anchors_preset = -1
-anchor_right = 0.226
-anchor_bottom = 0.154
+anchor_right = 0.2
+anchor_bottom = 0.15
 offset_right = -0.35202
 offset_bottom = 0.207993
 theme_override_constants/margin_left = 10
@@ -14,73 +14,47 @@ theme_override_constants/margin_right = 10
 theme_override_constants/margin_bottom = 10
 metadata/_edit_use_anchors_ = true
 
-[node name="Panel" type="Panel" parent="."]
-custom_minimum_size = Vector2(240, 80)
+[node name="HBoxContainer" type="HBoxContainer" parent="."]
 layout_mode = 2
 
-[node name="MarginContainer" type="MarginContainer" parent="Panel"]
-layout_mode = 1
-anchors_preset = 4
-anchor_top = 0.5
-anchor_bottom = 0.5
-offset_top = -40.0
-offset_right = 228.0
-offset_bottom = 40.0
-grow_vertical = 2
-theme_override_constants/margin_left = 10
-theme_override_constants/margin_top = 5
-theme_override_constants/margin_right = 10
-theme_override_constants/margin_bottom = 5
-
-[node name="HBoxContainer" type="HBoxContainer" parent="Panel/MarginContainer"]
+[node name="MarginContainer" type="MarginContainer" parent="HBoxContainer"]
 layout_mode = 2
-size_flags_horizontal = 0
-size_flags_vertical = 4
-
-[node name="MarginContainer" type="MarginContainer" parent="Panel/MarginContainer/HBoxContainer"]
-layout_mode = 2
-size_flags_horizontal = 0
-size_flags_vertical = 4
+size_flags_horizontal = 3
 theme_override_constants/margin_left = 5
 theme_override_constants/margin_top = 5
 theme_override_constants/margin_right = 5
 theme_override_constants/margin_bottom = 5
 
-[node name="TextureRect" type="TextureRect" parent="Panel/MarginContainer/HBoxContainer/MarginContainer"]
-custom_minimum_size = Vector2(60, 60)
+[node name="TextureRect" type="TextureRect" parent="HBoxContainer/MarginContainer"]
+custom_minimum_size = Vector2(18, 18)
 layout_mode = 2
-size_flags_horizontal = 0
-size_flags_vertical = 4
 texture = ExtResource("1_1f0m8")
+stretch_mode = 5
 
-[node name="MarginContainer2" type="MarginContainer" parent="Panel/MarginContainer/HBoxContainer"]
+[node name="MarginContainer2" type="MarginContainer" parent="HBoxContainer"]
 layout_mode = 2
-size_flags_horizontal = 0
-size_flags_vertical = 4
+size_flags_horizontal = 3
 theme_override_constants/margin_left = 5
 theme_override_constants/margin_top = 5
 theme_override_constants/margin_right = 5
 theme_override_constants/margin_bottom = 5
 
-[node name="TextureRect" type="TextureRect" parent="Panel/MarginContainer/HBoxContainer/MarginContainer2"]
-custom_minimum_size = Vector2(60, 60)
+[node name="TextureRect" type="TextureRect" parent="HBoxContainer/MarginContainer2"]
+custom_minimum_size = Vector2(18, 18)
 layout_mode = 2
-size_flags_horizontal = 0
-size_flags_vertical = 4
 texture = ExtResource("1_1f0m8")
+stretch_mode = 5
 
-[node name="MarginContainer3" type="MarginContainer" parent="Panel/MarginContainer/HBoxContainer"]
+[node name="MarginContainer3" type="MarginContainer" parent="HBoxContainer"]
 layout_mode = 2
-size_flags_horizontal = 0
-size_flags_vertical = 4
+size_flags_horizontal = 3
 theme_override_constants/margin_left = 5
 theme_override_constants/margin_top = 5
 theme_override_constants/margin_right = 5
 theme_override_constants/margin_bottom = 5
 
-[node name="TextureRect" type="TextureRect" parent="Panel/MarginContainer/HBoxContainer/MarginContainer3"]
-custom_minimum_size = Vector2(60, 60)
+[node name="TextureRect" type="TextureRect" parent="HBoxContainer/MarginContainer3"]
+custom_minimum_size = Vector2(18, 18)
 layout_mode = 2
-size_flags_horizontal = 0
-size_flags_vertical = 4
 texture = ExtResource("1_1f0m8")
+stretch_mode = 5
